@@ -1,0 +1,56 @@
+body{
+    background : #A0BCC2;
+    /*
+    font-family: 'Cairo', sans-serif;
+    /* font-family: 'Mukta', sans-serif; */
+    /* font-family: 'Source Code Pro', monospace; */
+    color:white;
+}
+img{
+    background-image: url("images/bg.png"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+
+.bg{
+    background: linear-gradient(45deg , #6969FF, #C669FF);
+    animation : hue-rotate 2s linear infinite alternate;
+}
+
+@keyframes hue-rotate{
+    to{
+        filter :hue-rotate(90deg);
+    }
+}
+.heading{
+    margin:50px;
+    font-size: 80px ;
+    font-family: "Lucida Console", "Courier New";
+    text-align: center;
+}
+
+hr{
+    border-top: 2px dashed blue;
+}
+
+#eli{
+    text-align: center;
+    margin:100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+a{
+    text-decoration :none;
+    color:white;
+    cursor : pointer;
+    
+}
+
+button{
+    transition : width 5s;
+}
+
+button:hover{
+    width : 200px;
+}
